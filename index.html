@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery_formstyler.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/checkbox.css">
+	<link rel="stylesheet" href="css/drop-down_menu.css">
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.js"
+	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+	crossorigin="anonymous"></script>
+	<script src="js/jquery_jcarousel.min.js"></script>
+	<script src="js/jquery_formstyler.min.js"></script>
+	<script src="js/checkboxjQ.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/menu.js"></script>
+</head>
+<body>
+	<div class="jcarousel">
+		<ul>
+			<li><img src="img/rabstol_net_star_wars_02.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/Chrysanthemum.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/Desert.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/your father.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/Penguins.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/your father.jpg" width="600" height="400" alt=""></li>
+			<li><img src="img/rabstol_net_star_wars_02.jpg" width="600" height="400" alt=""></li>
+		</ul>
+		<a href="#" class="jcarousel-control-prev">&lsaquo; Prev</a>
+		<a href="#" class="jcarousel-control-next">Next &rsaquo;</a>
+		<p class="jcarousel-pagination">
+		</p>
+	</div>
+	<div class="select__box">
+		<select name="city">
+			<option disabled>Chose city</option>
+			<option selected value="ny">New York</option>
+			<option value="la">Los Angeles</option>
+			<option value="lv">Las Vegas</option>
+			<option value="washington">Washington DC</option>
+		</select>
+	</div>
+	<nav>
+		<ul class="menu">
+			<li><a href="">nav1</a></li>
+			<li><a href="">nav2</a></li>
+			<li class="dropdown">
+				<a href="">nav3</a>
+				<ul class="sub_menu hide">
+					<li><a href="">nav3.1</a></li>
+					<li class="dropdown">
+						<a href="">nav3.2</a>
+						<ul class="sub_menu hide">
+							<li><a href="">nav3.2.1</a></li>
+							<li><a href="">nav3.2.2</a></li>
+							<li><a href="">nav3.2.3</a></li>
+							<li><a href="">nav3.2.4</a></li>
+							<li><a href="">nav3.2.5</a></li>
+						</ul>
+					</li>
+					<li><a href="">nav3.3</a></li>
+					<li><a href="">nav3.4</a></li>
+					<li><a href="">nav3.5</a></li>
+				</ul>
+			</li>
+			<li><a href="">nav4</a></li>
+			<li><a href="">nav5</a></li>
+		</ul>
+	</nav>
+	<div class="checkbox__jq">
+		<form action="">
+			<h5>Checkbox jQ</h5>
+			<div>
+				<label for="first" id="one">first</label>
+				<span class="newCheck" id="first_span">
+					<input class="jq_check" type="checkbox" id="first">
+				</span>
+			</div>
+			<div>
+				<label for="second" id="two">second</label>
+				<span class="newCheck" id="second_span">
+					<input class="jq_check" type="checkbox" id="second">
+				</span>
+			</div>
+			<div>
+				<label for="third" id="three">third</label>
+				<span class="newCheck" id="third_span">
+					<input class="jq_check" type="checkbox" id="third">
+				</span>
+			</div>
+		</form>
+	</div>
+	<div class="checkbox__jq">
+		<form action="">
+			<h5>Checkbox CSS</h5>
+			<input type="checkbox" id="test-check1" >
+			<label for="test-check1" class="css_chackbox">Чекбокс 1:</label>
+		</form>
+	</div>
+	<script src="js/jcarusel.js"></script>
+</body>
+</html>

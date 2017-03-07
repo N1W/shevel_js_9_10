@@ -1,0 +1,65 @@
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #000;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.select__box {
+	padding: 20px;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
+
+form {
+	margin: 50px;
+    background: #99CCFF;
+    padding: 10px;
+}
+
+.checkbox__jq {
+	border-bottom: 2px solid #000;
+}
+
+#one,
+#two,
+#three {
+	width: 60px;
+}
+
+.newCheck {
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	display: inline-block;
+    cursor: pointer;
+	overflow: hidden;
+}
+
+.newChecked {
+	background-position: 0 -17px;
+}
+
+.jq_check {
+	margin-left: -100px;
+}
+
+nav {
+	background-color: rgb(255,100,100);
+    padding: 10px 0;
+    border-bottom: 2px solid #000;
+}
